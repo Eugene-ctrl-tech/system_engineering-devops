@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# 67-stop_me_if_you_can: Send SIGTERM to 7-highlander process
+# Send SIGTERM to all processes matching 7-highlander
+pkill -f 7-highlander
