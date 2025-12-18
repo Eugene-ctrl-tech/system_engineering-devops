@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Stops the 4-to_infinity_and_beyond process without using kill or killall
+# Using pkill to terminate the process by matching its name
+pkill -f 4-to_infinity_and_beyond
